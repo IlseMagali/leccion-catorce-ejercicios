@@ -1,21 +1,22 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script type="text/javascript" src="grados.js"></script>
   </head>
   <body>
     <table border="1">
-
       <tr>
         <td>Fahrenheit</td>
-        <td><input></td>
-        <td><button>Convertir a Celsius</button></td>
+        <td><input type="text" id="gradosFahrenheit"></td>
+        <td><button onClick="convertirACelsius();">Convertir a Celsius</button></td>
       </tr>
       <tr>
         <td>Celsius</td>
-        <td><input></td>
-        <td><button>Convertir a Fahrenheit</button></td>
+        <td><input type="text" id="gradosCelsius" ></td>
+        <td><button onClick="convertirAFahrenheit();">Convertir a Fahrenheit</button></td>
       </tr>
     </table>
   </body>
